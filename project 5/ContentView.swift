@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         List{
             Text("hello world")
+            Text("We are rading about list.")
         }
     }
 }
