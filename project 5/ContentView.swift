@@ -10,9 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         List{
-            Text("hello world")
-            Text("We are rading about list.")
+            Section (header: accentColor(.green)){
+                Text("We are rading about list.")
+                Text("hello world")
+                Text("We are rading about list.")
+            }
+            
+            Section(header: accentColor(.green)) {
+                Text("We are rading about list.")
+                Text("hello world")
+                Text("We are rading about list.")
+            }
         }
+      
+        
     }
 }
 
