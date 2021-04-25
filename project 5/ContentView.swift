@@ -9,22 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List{
-            Section (header: accentColor(.green)){
-                Text("We are rading about list.")
-                Text("hello world")
-                Text("We are rading about list.")
-            }
+        if let fileURL = Bundle.main.url(forResource: "some-file", withExtension: "txt") {
+            //we have found the file
             
-            Section(header: accentColor(.green)) {
-                Text("We are rading about list.")
-                Text("hello world")
-                Text("We are rading about list.")
+            if let fileContents = try? String(contentsOf: fileURL) {
+                // we loaded the file into a string
             }
         }
-      
-        
+        return Text("helo")
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
