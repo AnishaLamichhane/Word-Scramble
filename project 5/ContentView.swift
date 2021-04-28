@@ -13,7 +13,8 @@ struct ContentView: View {
             //we have found the file
             
             if let fileContents = try? String(contentsOf: fileURL) {
-                // we loaded the file into a string
+                // 
+                //
             }
         }
         return Text("helo")
