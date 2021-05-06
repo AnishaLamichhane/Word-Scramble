@@ -10,4 +10,4 @@ Add a left bar button item that calls startGame(), so users can restart with a n
 Put a text view below the List so you can track and show the player’s score for a given root word. How you calculate score is down to you, but something involving number of words and their letter count would be reasonable.
 
 
-https://user-images.githubusercontent.com/52813885/117304893-f5b04300-ae9d-11eb-8a62-4e7ab02eac3f.mov
+
