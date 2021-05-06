@@ -9,5 +9,7 @@ Disallow answers that are shorter than three letters or are just our start word.
 Add a left bar button item that calls startGame(), so users can restart with a new word whenever they want to.
 Put a text view below the List so you can track and show the player’s score for a given root word. How you calculate score is down to you, but something involving number of words and their letter count would be reasonable.
 
+https://user-images.githubusercontent.com/52813885/117306284-44aaa800-ae9f-11eb-8e3f-da504c9f8aa4.mov
+
 
 
