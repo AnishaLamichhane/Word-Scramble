@@ -36,12 +36,19 @@ struct ContentView: View {
                 
                 VStack {
                     Text(" Score: \(score)")
-                        .foregroundColor(.orange)
+                        .foregroundColor(.green)
                         .fontWeight(.black)
                    
                 }
             }
             .navigationBarTitle(rootWord)
+            
+//            challenge 2
+            .navigationBarItems(leading: Button("New Game") { self.startGame() }
+                .foregroundColor(.black)
+                .border(Color.green, width: 1)
+                )
+            
             .onAppear(perform: startGame)
             .alert(isPresented: $showingError) {
                 Alert(title: Text(errorTitle), message: Text(errorMessage), dismissButton: .default(Text("OK")))
